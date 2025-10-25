@@ -25,8 +25,7 @@ void selectionSort(int arr[], int size)
 void printArray(int arr[], int size)
 {
     for (int i = 0; i < size; i++)
-        cout << arr[i] << " ";
-        cout << "\n";
+        cout << arr[i] << "\n";
 }
 
 int main()
@@ -42,3 +41,4 @@ int main()
     printArray(arr, size);
 	return 0;
 }
+
