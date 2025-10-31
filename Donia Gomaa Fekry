@@ -1,0 +1,14 @@
+def selection_sort(arr):
+    n=len(arr)
+    for i in range( n - 1):
+        x=i
+        for j in range(i + 1, n):
+            if arr[j]<arr[x]:
+             x=j
+        arr[i] , arr[x] = arr[x] , arr[i]
+
+
+arr=[50,20,65,41,84,19]
+print("the array before sort: \n" ,arr) 
+selection_sort(arr)
+print ("the array after sort: \n" ,arr)
